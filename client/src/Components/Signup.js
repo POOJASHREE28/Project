@@ -2,6 +2,8 @@ import  React, { useState } from 'react';
 import {Link } from "react-router-dom";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+
+
 function Signup(){
   const [name,setName]=useState()
   const [email,setEmail]=useState()
@@ -11,11 +13,12 @@ function Signup(){
   const handleSubmit=(e)=>{
     e.preventDefault()
     axios.post('http://localhost:3001/signup',{name,email,password})
-    .then(result=>{
-      console.log(result)
-      navigate('/login')
+    .then(()=>{
+      navigate('/Login')
     })
-    .catch(err=>console.log(err))
+    
+    .catch((err)=>{  console.log(err)
+    });
   }
   return(
     <div className="d-flex justify-content-center align-items-center bg-seconadry vh-100">

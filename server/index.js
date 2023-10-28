@@ -8,7 +8,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb://localhost:27017/project");
+mongoose.connect("mongodb://127.0.0.1:27017/fleet")
 
 
 app.post('/login',(req,res)=>{
@@ -27,12 +27,12 @@ app.post('/login',(req,res)=>{
     })
 })
 
-app.post("/signup", async(req,res)=>{
+app.post("/signup", (req,res)=>{
         DetailsModel.create(req.body)
-        .then(details=>res.json(details))
+        .then(fleetdetails=>res.json(fleetdetails))
         .catch(err=>res.json(err))
 })
 
-app.listen(3001,()=>{
+app.listen(3001, ()=>{
     console.log("server is running")
 })

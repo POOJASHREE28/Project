@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { Link} from 'react-router-dom';
 import "./Home.css"
-import {Chart} from 'chart.js';
-import { 
-    LineChart, 
-    ResponsiveContainer, 
-    Legend, Tooltip, 
-    Line, 
-    XAxis, 
-    YAxis, 
-    CartesianGrid 
-} from 'recharts';
+// import {Chart} from 'chart.js';
+// import { 
+//     LineChart, 
+//     ResponsiveContainer, 
+//     Legend, Tooltip, 
+//     Line, 
+//     XAxis, 
+//     YAxis, 
+//     CartesianGrid 
+// } from 'recharts';
 
 
 const Home = () => {
@@ -121,13 +121,13 @@ const Home = () => {
             <div className="dashboard-row">
                 <div className="dashboard-card">
                     <div className="dashboard-card-graph">
-                        <Chart
+                        {/* <Chart
                         options={state.options}
                         series={state.series}
                         type="bar"
                         width="250"
                         height="250"
-                        />
+                        /> */}
                     </div>
                 </div>
             </div> 
@@ -135,7 +135,7 @@ const Home = () => {
                 <div className="dashboard-card">
                     <div className="dashboard-card-graph">
                         <h1 className="text-heading">  Fleet-Mangement Graph</h1> 
-                        <ResponsiveContainer width="100%" aspect={3}> 
+                        {/* <ResponsiveContainer width="100%" aspect={3}> 
                             <LineChart data={pdata} margin={{ right: 300 }}> 
                                 <CartesianGrid /> 
                                 <XAxis dataKey="name" 
@@ -148,7 +148,7 @@ const Home = () => {
                                 <Line dataKey="service"
                                     stroke="red" activeDot={{ r: 8 }} /> 
                             </LineChart> 
-                        </ResponsiveContainer>
+                        </ResponsiveContainer> */}
                     </div>
                 </div>
             </div>  
