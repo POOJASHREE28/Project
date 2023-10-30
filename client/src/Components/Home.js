@@ -91,7 +91,7 @@ const Home = () => {
                 <Link to="/scheduling">Scheduling</Link>
                 </li>
                 <li>
-                <Link to="/delivery-information">Delivery Information</Link>
+                <Link to="/deliverytracker">DeliveryTracker</Link>
                 </li>
                 <li>
                 <Link to="/live-tracking">Live Tracking</Link>
