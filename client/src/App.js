@@ -2,25 +2,25 @@ import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Signup from './Components/Signup';
-// import Login from './Components/Login';
-// import Home from './Components/Home';
+import Signup from './Components/Signup';
+import Login from './Components/Login';
+import Home from './Components/Home';
 
-// import Livetracking from './Components/Livetracking';
+
 import Scheduling from './Components/Scheduling';
 import DeliveryTracker from './Components/DeliveryTracker';
+import Livetracking from './Components/Livetracking';
 
 function App() {
   return (
    <BrowserRouter>
    <Routes>
-    {/* <Route path='/*' element={<Signup/>}/> 
-    <Route path='/login' element={<Login/>}/>  */}
-    {/* <Route path='/home' element={<Home/>}/>  */}
-    <Route path='/' element={<Scheduling/>}/> 
-
-    {/* <Route path='/' element={<Livetracking/>}/>. */}
-    {/* <Route path='/' element={<DeliveryTracker/>}/> */}
+    <Route path='/*' element={<Signup/>}/> 
+    <Route path='/login' element={<Login/>}/>  
+    <Route path='/home' element={<Home/>}/> 
+    <Route path='/scheduling' element={<Scheduling/>}/>
+    <Route path='/deliverytracker' element={<DeliveryTracker/>}/>/
+    <Route path='/livetracking' element={<Livetracking/>}/>.
     {/*<Route path='/' element={<Chart/>}/> */}
    
    </Routes>
@@ -30,3 +30,4 @@ function App() {
 }
 
 export default App;
+

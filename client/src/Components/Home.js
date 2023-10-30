@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link} from 'react-router-dom';
 import "./Home.css"
+import './Scheduling.js';
+import './DeliveryTracker.js';
 // import {Chart} from 'chart.js';
 // import { 
 //     LineChart, 
@@ -11,7 +13,8 @@ import "./Home.css"
 //     YAxis, 
 //     CartesianGrid 
 // } from 'recharts';
-
+import './Graph.js'
+import Graph from './Graph.js';
 
 const Home = () => {
 
@@ -77,9 +80,7 @@ const Home = () => {
        <div className="sidebar">
             <h1 className="sidebar-header">Dashboard</h1>
             <ul>
-                {/* <li>
-                <Link to="/">Dashboard</Link>
-                </li> */}
+                
                 <li className="dropdown">
                 <li className="dropdown-btn">Vehicles<i className="fa fa-caret-down"></i></li>
                     <div className="dropdown-content">
@@ -94,7 +95,7 @@ const Home = () => {
                 <Link to="/deliverytracker">DeliveryTracker</Link>
                 </li>
                 <li>
-                <Link to="/live-tracking">Live Tracking</Link>
+                <Link to="/livetracking">Live Tracking</Link>
                 </li>
                 <li>
                 <Link to="/parking">Parking</Link>
@@ -134,21 +135,7 @@ const Home = () => {
             <div className="dashboard-row">
                 <div className="dashboard-card">
                     <div className="dashboard-card-graph">
-                        <h1 className="text-heading">  Fleet-Mangement Graph</h1> 
-                        {/* <ResponsiveContainer width="100%" aspect={3}> 
-                            <LineChart data={pdata} margin={{ right: 300 }}> 
-                                <CartesianGrid /> 
-                                <XAxis dataKey="name" 
-                                    interval={'preserveStartEnd'} /> 
-                                <YAxis></YAxis> 
-                                <Legend /> 
-                                <Tooltip /> 
-                                <Line dataKey="fuel"
-                                    stroke="black" activeDot={{ r: 8 }} /> 
-                                <Line dataKey="service"
-                                    stroke="red" activeDot={{ r: 8 }} /> 
-                            </LineChart> 
-                        </ResponsiveContainer> */}
+                            <Graph/>
                     </div>
                 </div>
             </div>  

@@ -41,13 +41,13 @@ const pdata = [
         fees: 8 
     }, 
 ]; 
-const Chart = () => {
+const Graph = () => {
 
   return (
     <> 
-    <h1 className="text-heading"> 
+    {/* <h1 className="text-heading"> 
         Fleet-Mangement Graph
-    </h1> 
+    </h1>  */}
     <ResponsiveContainer width="100%" aspect={3}> 
         <LineChart data={pdata} margin={{ right: 300 }}> 
             <CartesianGrid /> 
@@ -66,5 +66,5 @@ const Chart = () => {
   )
 }
 
-export default Chart
+export default Graph
 

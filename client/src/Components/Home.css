@@ -46,7 +46,7 @@
   .content-body {
     padding: 10px;
   }
-  .navbar {
+  /* .navbar {
     position: fixed;
     top: 0;
     left: 200px;
@@ -75,7 +75,7 @@
     color: #fff;
     padding: 5px;
     border: 1px solid #ccc;
-  }
+  } */
   .dashboard {
     display: flex;
     flex-direction: column;
