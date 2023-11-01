@@ -12,6 +12,7 @@ import DeliveryTracker from './Components/DeliveryTracker';
 import Livetracking from './Components/Livetracking';
 import Driverlist from './Components/Driverlist';
 import FuelOptimisation from './Components/FuelOptimisation';
+import ParkingApp from './Components/ParkingApp';
 // import Park from './Components/Park';
 
 
@@ -29,6 +30,7 @@ function App() {
     <Route path='/driverlist' element={<Driverlist/>}/>
    {/* <Route path='/park' element={<Park/>}/> */}
    <Route path='/fueloptimisation' element={<FuelOptimisation/>}/>
+   <Route path='parkingapp' element={<ParkingApp/>}/>
    </Routes>
    </BrowserRouter>
 

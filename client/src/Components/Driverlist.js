@@ -309,16 +309,14 @@ const Driverlist = () => {
           vehicleId: 'ABC901',
           dutyTiming: '7am - 4pm',
           backgroundColor: '#4B0082',
-        }  ,
-        
-        
-      
+        }
   ];
 
   return (
-    <div className="card-list">
-      {drivers.map((driver, index) => {
-        return (
+    <div className="driver-list-container">
+      <h2 className="center-text">Driver</h2>
+      <div className="card-list">
+        {drivers.map((driver, index) => (
           <Card
             key={index}
             driverName={driver.driverName}
@@ -327,8 +325,8 @@ const Driverlist = () => {
             dutyTiming={driver.dutyTiming}
             backgroundColor={driver.backgroundColor}
           />
-        );
-      })}
+        ))}
+      </div>
     </div>
   );
 };
