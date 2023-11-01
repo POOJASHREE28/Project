@@ -10,19 +10,25 @@ import Home from './Components/Home';
 import Scheduling from './Components/Scheduling';
 import DeliveryTracker from './Components/DeliveryTracker';
 import Livetracking from './Components/Livetracking';
+import Driverlist from './Components/Driverlist';
+import FuelOptimisation from './Components/FuelOptimisation';
+// import Park from './Components/Park';
+
+
 
 function App() {
   return (
    <BrowserRouter>
    <Routes>
-    <Route path='/*' element={<Signup/>}/> 
-    <Route path='/login' element={<Login/>}/>  
-    <Route path='/home' element={<Home/>}/> 
+    {/* <Route path='/*' element={<Signup/>}/> 
+    <Route path='/login' element={<Login/>}/>   */}
+    <Route path='/' element={<Home/>}/> 
     <Route path='/scheduling' element={<Scheduling/>}/>
     <Route path='/deliverytracker' element={<DeliveryTracker/>}/>/
-    <Route path='/livetracking' element={<Livetracking/>}/>.
-    {/*<Route path='/' element={<Chart/>}/> */}
-   
+    <Route path='/livetracking' element={<Livetracking/>}/>
+    <Route path='/driverlist' element={<Driverlist/>}/>
+   {/* <Route path='/park' element={<Park/>}/> */}
+   <Route path='/fueloptimisation' element={<FuelOptimisation/>}/>
    </Routes>
    </BrowserRouter>
 

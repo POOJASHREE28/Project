@@ -13,32 +13,32 @@ const pdata = [
     { 
         name: 'march', 
         fuel: 99, 
-        fees: 120 
+        service: 120 
     }, 
     { 
         name: 'april', 
         fuel: 15, 
-        fees: 12 
+        service: 12 
     }, 
     { 
         name: 'may', 
         fuel: 5, 
-        fees: 10 
+        service: 10 
     }, 
     { 
         name: 'june', 
         fuel: 10, 
-        fees: 5 
+        service: 5 
     }, 
     { 
         name: 'july', 
         fuel: 9, 
-        fees: 4 
+        service: 4 
     }, 
     { 
         name: 'aug', 
         fuel: 10, 
-        fees: 8 
+        service: 8 
     }, 
 ]; 
 const Graph = () => {
@@ -48,7 +48,7 @@ const Graph = () => {
     {/* <h1 className="text-heading"> 
         Fleet-Mangement Graph
     </h1>  */}
-    <ResponsiveContainer width="100%" aspect={3}> 
+    <ResponsiveContainer width="100%" height="100%" aspect={3}> 
         <LineChart data={pdata} margin={{ right: 300 }}> 
             <CartesianGrid /> 
             <XAxis dataKey="name" 

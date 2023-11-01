@@ -166,6 +166,108 @@ const Scheduling = () => {
         routes: ["Hassan", "Shivamogga", "Udupi"],
       },
       
+        {
+          "busId": 23,
+          "fromPlace": "Bengaluru",
+          "toPlace": "Mangaluru",
+          "departureTime": "11:00 AM",
+          "routes": ["Hassan", "Shivamogga", "Udupi"],
+        },
+        {
+          "busId": 24,
+          "fromPlace": "Mysuru",
+          "toPlace": "Hubballi",
+          "departureTime": "12:00 PM",
+          "routes": ["Madikeri", "Bidar", "Gadag"],
+        },
+        {
+          "busId": 25,
+          "fromPlace": "Hubballi",
+          "toPlace": "Goa",
+          "departureTime": "1:00 PM",
+          "routes": ["Belgaum", "Sangli", "Panaji"],
+        },
+        {
+          "busId": 42,
+          "fromPlace": "Chennai",
+          "toPlace": "Coimbatore",
+          "departureTime": "11:00 AM",
+          "routes": ["Madurai", "Tiruchirapalli", "Erode"],
+        },
+        {
+          "busId": 43,
+          "fromPlace": "Coimbatore",
+          "toPlace": "Trivandrum",
+          "departureTime": "12:00 PM",
+          "routes": ["Palakkad", "Kochi", "Alappuzha"],
+        },
+        {
+          "busId": 44,
+          "fromPlace": "Trivandrum",
+          "toPlace": "Kochi",
+          "departureTime": "1:00 PM",
+          "routes": ["Alappuzha", "Kollam", "Thrissur"],
+        },
+        {
+          "busId": 45,
+          "fromPlace": "Kochi",
+          "toPlace": "Mumbai",
+          "departureTime": "2:00 PM",
+          "routes": ["Pune", "Nashik", "Ratnagiri"],
+        },
+        {
+          "busId": 46,
+          "fromPlace": "Mumbai",
+          "toPlace": "Delhi",
+          "departureTime": "3:00 PM",
+          "routes": ["Ahmedabad", "Jaipur", "Kanpur"],
+        },
+        {
+          "busId": 47,
+          "fromPlace": "Delhi",
+          "toPlace": "Kolkata",
+          "departureTime": "4:00 PM",
+          "routes": ["Lucknow", "Varanasi", "Patna"],
+        },
+        {
+          "busId": 48,
+          "fromPlace": "Kolkata",
+          "toPlace": "Guwahati",
+          "departureTime": "5:00 PM",
+          "routes": ["Shillong", "Agartala", "Itanagar"],
+        },
+        {
+          "busId": 49,
+          "fromPlace": "Guwahati",
+          "toPlace": "Imphal",
+          "departureTime": "6:00 PM",
+          "routes": ["Dimapur", "Kohima", "Tuensang"],
+        },
+        {
+          "busId": 50,
+          "fromPlace": "Imphal",
+          "toPlace": "Aizawl",
+          "departureTime": "7:00 PM",
+          "routes": ["Kohima", "Mizoram"],
+        },
+        {
+          "busId": 51,
+          "fromPlace": "Aizawl",
+          "toPlace": "Thiruvananthapuram",
+          "departureTime": "8:00 PM",
+          "routes": ["Coimbatore", "Madurai", "Palakkad"],
+        },
+        {
+          "busId": 52,
+          "fromPlace": "Thiruvananthapuram",
+          "toPlace": "Bangalore",
+          "departureTime": "9:00 PM",
+          "routes": ["Kochi", "Alappuzha", "Kollam"],
+        },
+        
+          
+      
+      
   ]);
 
   const handleSearch = () => {

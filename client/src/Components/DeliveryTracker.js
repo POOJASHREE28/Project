@@ -163,7 +163,94 @@ const DeliveryTracker = () => {
       trackingNumber: "252525252525",
       deliveryStatus: "Delivered",
       deliveryDate: "2023-10-29",
-    }
+    },
+      {
+        "name": "John Doe",
+        "trackingNumber": "1234567890",
+        "deliveryStatus": "Delivered",
+        "deliveryDate": "2023-10-29"
+      },
+      {
+        "name": "Jane Doe",
+        "trackingNumber": "9876543210",
+        "deliveryStatus": "Out for delivery",
+        "deliveryDate": "2023-10-30"
+      },
+      {
+        "name": "Peter Parker",
+        "trackingNumber": "1111111111",
+        "deliveryStatus": "Pending",
+        "deliveryDate": "2023-11-01"
+      },
+  
+      {
+        "name": "Alice Miller",
+        "trackingNumber": "RST091",
+        "deliveryStatus": "Delivered",
+        "deliveryDate": "2023-10-29"
+      },
+      {
+        "name": "David Green",
+        "trackingNumber": "UVW234",
+        "deliveryStatus": "Out for delivery",
+        "deliveryDate": "2023-10-30"
+      },
+      {
+        "name": "Sarah Jones",
+        "trackingNumber": "ABC890",
+        "deliveryStatus": "Picked up",
+        "deliveryDate": "2023-10-28"
+      },
+      {
+        "name": "Michael Williams",
+        "trackingNumber": "DEF012",
+        "deliveryStatus": "Delivered",
+        "deliveryDate": "2023-10-29"
+      },
+      {
+        "name": "Elizabeth Brown",
+        "trackingNumber": "GHI345",
+        "deliveryStatus": "Out for delivery",
+        "deliveryDate": "2023-10-30"
+      },
+      {
+        "name": "William Johnson",
+        "trackingNumber": "JKL678",
+        "deliveryStatus": "Pending",
+        "deliveryDate": "2023-11-01"
+      },
+      {
+        "name": "Mary Johnson",
+        "trackingNumber": "MNO901",
+        "deliveryStatus": "Picked up",
+        "deliveryDate": "2023-10-28"
+      },
+      {
+        "name": "James Miller",
+        "trackingNumber": "PQR012",
+        "deliveryStatus": "In transit",
+        "deliveryDate": "2023-10-31"
+      },
+      {
+        "name": "Charles Green",
+        "trackingNumber": "UVW345",
+        "deliveryStatus": "Delivered",
+        "deliveryDate": "2023-10-29"
+      },
+      {
+        "name": "Robert Brown",
+        "trackingNumber": "XYZ678",
+        "deliveryStatus": "Out for delivery",
+        "deliveryDate": "2023-10-30"
+      },
+      {
+        "name": "Mary Jane Watson",
+        "trackingNumber": "2222222222",
+        "deliveryStatus": "Picked up",
+        "deliveryDate": "2023-10-28"
+      }
+    
+    
   ]);
 
   const handleSearch = () => {
