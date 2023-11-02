@@ -1,0 +1,18 @@
+.top-section {
+    width: 100%; /* Make sure it takes up full width */
+  }
+  
+  .table-section {
+    width: 100%; /* Make sure it takes up full width */
+  }
+  .livetracking-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #fff; /* Add a background color if needed */
+    z-index: 1; /* Make sure it's on top of other elements */
+  }
+  
+  
+  /* Add any additional styles as needed*/

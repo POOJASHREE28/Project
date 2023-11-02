@@ -1,3 +1,4 @@
+
 const express = require("express")
 const mongoose = require('mongoose')
 const cors=require("cors")
@@ -8,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb://127.0.0.1:27017/fleet")
+mongoose.connect("mongodb+srv://poojapoojashree00:poojapoojashree00@cluster0.hokyiv8.mongodb.net/?retryWrites=true&w=majority")
 
 
 app.post('/login',(req,res)=>{
@@ -36,3 +37,4 @@ app.post("/signup", (req,res)=>{
 app.listen(3001, ()=>{
     console.log("server is running")
 })
+

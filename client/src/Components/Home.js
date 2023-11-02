@@ -37,22 +37,22 @@ const Home = () => {
         <ul>
           <li>Dashboard</li>
           <li>
-            <Link to="/scheduling" onClick={() => setSelectedPage('scheduling')}>Scheduling</Link>
+            <Link onClick={() => setSelectedPage('scheduling')}>Scheduling</Link>
           </li>
           <li>
-            <Link to="/deliverytracker" onClick={() => setSelectedPage('deliverytracker')}>DeliveryTracker</Link>
+            <Link onClick={() => setSelectedPage('deliverytracker')}>DeliveryTracker</Link>
           </li>
           <li>
-            <Link to="/Livetracking" onClick={() => setSelectedPage('livetracking')}>Livetracking</Link>
+            <Link onClick={() => setSelectedPage('livetracking')}>Livetracking</Link>
           </li>
           <li>
-            <Link to="/driverlist" onClick={() => setSelectedPage('driverlist')}>Driverlist</Link>
+            <Link onClick={() => setSelectedPage('driverlist')}>Driverlist</Link>
           </li>
           <li>
-            <Link to="/fueloptimisation" onClick={() => setSelectedPage('fueloptimisation')}>FuelOptimisation</Link>
+            <Link onClick={() => setSelectedPage('fueloptimisation')}>FuelOptimisation</Link>
           </li>
           <li>
-            <Link to="/parkingapp" onClick={() => setSelectedPage('parkingapp')}>Parking</Link>
+            <Link onClick={() => setSelectedPage('parkingapp')}>Parking</Link>
           </li>
         </ul>
       </div>
