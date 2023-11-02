@@ -59,7 +59,7 @@ const Home = () => {
 
       <div className="dashboard">
         <div className="dashboard-info">
-          <h2>Fleet Management Benefits</h2>
+          <h2>Fleet Management</h2>
         </div>
         <div className="dashboard-card">
           <div className="page-content-container">
