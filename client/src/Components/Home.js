@@ -35,7 +35,7 @@ const Home = () => {
     <div className="main-container">
       <div className="sidebar">
         <ul>
-          <li>Dashboard</li>
+          <h2>Dashboard</h2>
           <li>
             <Link onClick={() => setSelectedPage('scheduling')}>Scheduling</Link>
           </li>
